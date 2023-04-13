@@ -4,7 +4,7 @@
 </script>
 
 <div class="grid grid-cols-6 gap-3">
-  <div class="col-span-6 md:col-span-3 my-3 md:my-12">
+  <div class="col-span-6 md:col-span-3 md:my-12">
     <h2 class="font-bold text-lg text-center">
       Willkommen bei Patrick's Felgen Service
     </h2>
