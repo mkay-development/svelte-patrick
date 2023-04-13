@@ -15,4 +15,4 @@ jobs:
         host: patrick.mkay.dev
         username: root
         key: ${{ secrets.KEY }}
-        script: cd /mtn/frontend-3/patrick.mkay.dev && git pull && yarn && yarn build
+        script: cd /mnt/frontend-3/patrick.mkay.dev && git pull && yarn && yarn build
