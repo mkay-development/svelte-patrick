@@ -4,7 +4,7 @@
 </script>
 
 <div class="grid grid-cols-6 gap-3">
-  <div class="col-span-6 md:col-span-3 my-12">
+  <div class="col-span-6 md:col-span-3 my-6 md:my-12">
     <h2 class="font-bold text-lg text-center">
       Willkommen bei Patrick's Felgen Service
     </h2>
@@ -14,7 +14,7 @@
       magni aut porro tenetur obcaecati asperiores necessitatibus voluptatibus
       vitae labore!
     </p>
-    <div class="grid grid-cols-6">
+    <div class="grid grid-cols-6 gap-3">
       <div class="col-span-6 md:col-span-2">
         <Fa icon={faSmile} class="mx-auto mt-6" size="3x" />
         <h2 class="font-bold text-center mt-3">Reparatur</h2>
