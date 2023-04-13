@@ -1,15 +1,23 @@
 <script>
   import "../tailwind.css";
   import Fa from "svelte-fa";
-  import {
-    faHeart,
-  } from "@fortawesome/free-solid-svg-icons";
+  import { faHeart } from "@fortawesome/free-solid-svg-icons";
 </script>
 
+<svelte:head>
+  <script
+    defer
+    data-domain="patrick.mkay.dev"
+    src="https://bhkenqpeta4iu6t.plausible.dev/js/script.js"
+  ></script>
+</svelte:head>
+
 <header class="mx-auto max-w-5xl my-2 flex justify-between px-2 py-2">
-  <h1 class="text-xl font-bold"><a href="/">Logo</a></h1>
-  <nav class="">
+  <h1 class="text-xl font-bold"><a href="/">Patrick's Felgen</a></h1>
+  <nav class="desktop md:block hidden">
     <ul class="flex space-x-10">
+      <li class="list-disc">Test</li>
+      <li class="list-disc">Test</li>
       <li class="list-disc">Test</li>
       <li class="list-disc">Test</li>
     </ul>
